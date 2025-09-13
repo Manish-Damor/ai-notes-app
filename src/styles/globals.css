@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glossary-term {
+  @apply bg-yellow-200 cursor-help;
+}
+.error-term {
+  @apply underline decoration-wavy decoration-red-500;
+}
